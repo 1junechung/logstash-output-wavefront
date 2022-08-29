@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "output" }
 
   # Gem dependencies
-  s.add_runtime_dependency "logstash-core", "~> 7.5", ">= 7.5.2"
+  s.add_runtime_dependency "logstash-core", "~> 6.0", ">= 6.0.2"
   s.add_runtime_dependency "logstash-codec-plain", "~> 3.0", ">= 3.0.6"
   s.add_runtime_dependency "wavefront-client", "~> 3.6", ">= 3.6.2"
   s.add_development_dependency "logstash-devutils", "~> 2.0", ">= 2.0.3"
